@@ -24,6 +24,16 @@ subtractResult;
 
 //////////////////////////////////////////
 
+function subtractThreeNumbersReverse (num1, num2, num3)
+{
+    return num3 - num2 - num1;
+}
+
+const subtractReverseResult = subtractThreeNumbersReverse(10, 1, 2);
+subtractReverseResult;
+
+/////////////////////////////////////////
+
 function tripleString (str1, str2, str3) {
     return str1 + str2 + str3;
 }
